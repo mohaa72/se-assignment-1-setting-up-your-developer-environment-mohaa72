@@ -44,6 +44,94 @@ This assignment aims to familiarize you with the tools and configurations necess
 #Submission:
 Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
 
+Answers to Assignment One – Setting Up Development Environment
+This document outlines the steps taken to set up a robust and productive developer environment conducive to coding, debugging, version control, and collaboration.
+1. Selected Operating System (OS)
+Task: Downloaded and installed Windows 11.
+Steps:
+1. Visited the [Windows 11 download page](https://www.microsoft.com/software-download/windows11).
+2. Clicked on "Download Now" and followed the on-screen instructions to download the installation media.
+3. Created a bootable USB using the Windows 11 installation media tool.
+4. Inserted the installation media into your computer and reboot.
+5. Followed the prompts to install Windows 11.
+Screenshot
+ ![Window 11](image.png)
+
+2. Installed a Text Editor or Integrated Development Environment (IDE)
+Task: Downloaded and installed Visual Studio Code (VS Code).
+Steps:
+1. Visited the [Visual Studio Code download page](https://code.visualstudio.com/Download).
+2. Selected the installer for Windows and download it.
+3. Run the installer and follow the on-screen instructions to complete the installation.
+Screenshot
+![VS Code](image-1.png)
+ 
+3. Setting Up Version Control System
+Task: Installed Git, configure it, and create a GitHub account.
+Steps:
+1. Visited the [Git download page](https://git-scm.com/download/win) and downloaded the Git installer for Windows.
+2. Run the installer and follow the on-screen instructions.
+3. Opened Git Bash and configure Git with your user information:
+   git config --global user.name "Mohaa72"
+   git config --global user email Ibrahim.tuke1@students.jkuat.ac.ke
+
+4. Visited [GitHub](https://github.com) and sign up for an account.
+5. Created a new repository on GitHub.
+Initialized a Git Repository
+1. Navigated to my project directory:
+   ```bash
+   cd path/to/my/project
+   ```
+2. Initialized a Git repository:
+   ```bash
+   git init
+   ```
+3. Added files and make the first commit:
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   ```
+4. Link the local repository to the GitHub repository:
+   ```bash
+   git remote add origin https://github.com/myusername/my-repo.git
+   git push -u origin master
+
+4. Installed Necessary Programming Languages and Runtimes
+Task: Installed Python.
+Steps:
+1. Visited the [Python download page](https://www.python.org/downloads/).
+2. Downloaded the latest version for Windows.
+3. Run the installer and ensure you check the option to add Python to your PATH.
+4. Verified the installation:
+   ```bash
+   python –version
+
+5. Installed Package Managers
+Task: Installed pip.
+Steps:
+1. pip is installed by default with Python. Verify pip installation:
+   ```bash
+   pip --version
+   ```
+6. Configured a Database (MySQL)
+Task: Downloaded and install MySQL.
+Steps:
+1. Visited the [MySQL download page](https://dev.mysql.com/downloads/windows/installer/5.7.html).
+2. Downloaded the MySQL Installer for Windows.
+3. Run the installer and followed the on-screen instructions to install MySQL.
+
+8. Explored Extensions and Plugins
+Task: Enhanced functionality of VS Code.
+Steps:
+1. Opened VS Code.
+2. Gone to the Extensions view by clicking the Extensions icon in the Sidebar or pressing `Ctrl+Shift+X`.
+3. Search for and install extensions like:
+   - Python
+
+GitHub Repository Link
+[Sample Project Repository]( https://github.com/mohaa72/AfternoonSEPLPSeasion)
+
+
 #Evaluation Criteria:**
 - Completeness and accuracy of setup documentation.
 - Effectiveness of version control implementation.
